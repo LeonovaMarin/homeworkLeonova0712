@@ -22,7 +22,7 @@ int row = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите номер столбца элемента: ");
 int column = Convert.ToInt32(Console.ReadLine());
 
-if (row < matrix.GetLength(0) && column < matrix.GetLength(1))
+    if (row < matrix.GetLength(0) && column < matrix.GetLength(1))
         Console.WriteLine($"Такой элемент есть, это {matrix[row, column]}");
-else
-        Console.WriteLine($"Строка: {row}, колонка {column} Такой элемент в массиве отсутствует");
+    else
+        Console.WriteLine($"Строка: {row}, колонка {column} Такой элементв массиве отсутствует");
